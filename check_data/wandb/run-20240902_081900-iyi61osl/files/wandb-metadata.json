@@ -1,0 +1,52 @@
+{
+    "os": "macOS-14.6.1-arm64-arm-64bit",
+    "python": "3.12.5",
+    "heartbeatAt": "2024-09-02T13:19:01.452322",
+    "startedAt": "2024-09-02T13:19:00.104092",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        ".",
+        "--reference_artifact",
+        "exercise_14/preprocessed_data.csv:latest",
+        "--sample_artifact",
+        "preprocessed_data.csv:latest",
+        "--ks_alpha",
+        "0.05"
+    ],
+    "state": "running",
+    "program": "/Users/p0w03o5/miniforge3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/bin/pytest",
+    "codePathLocal": null,
+    "host": "m-m00fwhwxjf",
+    "username": "p0w03o5",
+    "executable": "/Users/p0w03o5/miniforge3/envs/mlflow-60000e2b97642ccc38c7a9ee503977f0abd54819/bin/python3.12",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "cpu_freq": {
+        "current": 3228,
+        "min": 600,
+        "max": 3228
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3228,
+            "min": 600,
+            "max": 3228
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 926.3517189025879,
+            "used": 9.565475463867188
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 32.0
+    }
+}
